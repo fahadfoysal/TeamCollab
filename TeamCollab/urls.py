@@ -7,9 +7,9 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="My API",
+        title="TeamCollab API",
         default_version='v1',
-        description="My API description",
+        description="TeamCollab is a project management tool that allows teams to collaborate on projects",
         terms_of_service="https://www.example.com/terms/",
         contact=openapi.Contact(email="contact@example.com"),
         license=openapi.License(name="Awesome License"),
