@@ -1,7 +1,7 @@
 
 # TeamCollab API
 
-TeamCollab is project management tool that allows teams to collaborate on projects. It helps to manage users, projects, tasks, and comments. This api can be consumed by front-end web app and mobile app.
+TeamCollab is a project management tool that allows teams to collaborate on projects. It helps to manage users, projects, tasks, and comments. This API can be consumed by the front-end web app and mobile app.
 
 
 
@@ -10,7 +10,7 @@ TeamCollab is project management tool that allows teams to collaborate on projec
 - JWT Authentication
 - Custom User Model
 - Full CRUD functionality
-- API Doc by swagger
+- API Doc by Swagger
 - And many more.
 
 
@@ -51,6 +51,8 @@ Run the development server:
 
 ```
 Access the Django admin panel at http://localhost:8000/admin/ to manage everything.
+
+Access Swagger UI for better API doc at http://127.0.0.1:8000/swagger/
 
 
 ## API Endpoints for Users
